@@ -1,0 +1,26 @@
+- make an empty activity.
+
+- first thing we put a dependency in the gradle file , and classpath and apply plugin.
+
+- make a activity --> type fragment and viewModel.
+
+- now we can create  navigation_graph.xml --> click on res and choose Navigation .
+
+- on the main activity choose container and choose nav_host_fragment
+
+- host will show in navigation_graph
+
+- click on new destination button and choose main fragment as the destination
+
+- now you can use navigation graph to add new fragment
+
+- now in main activity we should implement interface OnFragmentInteractionListener
+
+- now make arrow with the main fragment and the second fragment --> should make build and generated java ....
+
+- now you can run the code
+
+- how to send args from one fragment to another fragment
+    - in the navigation graph we will make an args in the second fragment -- > name
+
+    - send the args from first activity to the second activity
